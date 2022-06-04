@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+
+header
+{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffdfbd;
+    margin-top: 42.5rem;
+    border-top: 1.5px solid rgba(0,0,0,0.2);
+}
+
+
+
+header a img 
+{
+    width: 30px;
+    margin: 0.7rem;
+}
+
+
+
+
+
+
+
+
+.calm 
+{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    background: #f1f1f1;
+}
+
+
+
+.calm .boxm
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+
+.calm h1 
+{
+    position: absolute;
+    font-size: 1.1em;
+    color: #90cf47;
+    left: 3%;
+    margin-top: 0.5rem;
+}
+
+
+
+.calm .boxm .box 
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background: #fff;
+    margin: 0.6rem;
+}
+
+
+
+
+.calm .boxm .box p 
+{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.calm .boxe
+{
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin-top: 19rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+
+.calm .boxe .bax
+{
+    position: absolute;
+    width: 45px;
+    height: 5.5px;
+    border-radius: 3px;
+    background:  #999;
+    margin-top: 0.7rem;
+}
+
+
+
+.calm .boxe h1 
+{
+    position: absolute;
+    font-size: 1.1em;
+    color: #777;
+    left: 3.5%;
+    margin-top: 2.5rem;
+}
+
+
+
+.calm .boxe .plan 
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+
+
+.calm .boxe .plan .plans
+{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem;
+}
+
+
+
+.calm .boxe .plans img 
+{
+    position: absolute;
+    width: 50px;
+    margin-top: 1rem;
+}
+
+
+
+
+.calm .boxe .plans .read1
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #FD7E14;
+    margin-top: 4.5rem;
+}
+
+
+
+
+.calm .boxe .plans .read2
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #FD7E14;
+    margin-top: 6rem;
+}
+
+
+
+
+
+.calm .boxe .plans .speed1
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #22C3E6;
+    margin-top: 4.5rem;
+}
+
+
+
+
+
+
+.calm .boxe .plans .speed2
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #22C3E6;
+    margin-top: 6rem;
+}
+
+
+
+
+
+
+.calm .boxe .plan2
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+}
+
+
+
+.calm .boxe .plan2 .plans
+{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem;
+}
+
+
+
+.calm .boxe .plan2 .plans img 
+{
+    position: absolute;
+    width: 50px;
+    margin-top: 1rem;
+}
+
+
+
+
+.calm .boxe .plan2 .plans .run1
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #40C057;
+    margin-top: 4.5rem;
+}
+
+
+
+
+.calm .boxe .plan2 .plans .run2
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #40C057;
+    margin-top: 6rem;
+}
+
+
+
+
+
+.calm .boxe .plan2 .plans .listen1
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #FA5252;
+    margin-top: 4.5rem;
+}
+
+
+
+
+.calm .boxe .plan2 .plans .listen2
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #FA5252;
+    margin-top: 6rem;
+}
+
+
+
+
+/********Info**********/
+
+
+.info
+{
+    position: fixed;
+    width: 100%;
+    height: 770px;
+    background: #ffdfbd;
+}
+
+
+
+.info h1
+{
+    font-size: 1.7em;
+    padding: 10px;
+}
+
+
+
+.info .infa 
+{
+    position: fixed;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #fff;
+    margin-top: 4rem;
+}
+
+
+
+
+.info .infa p 
+{
+    position: absolute;
+    font-size: 1.4em;
+    color: #888;
+    padding: 50px 30px;
+}
+
+
+
+.info .infa p spanA 
+{
+    font-size: 1.5em;
+    color: #90cf47;
+}
+
+
+
+
+
+.info .infa .word {
+  font-size: 2.2em;
+  color: #90cf47;
+  margin-top: 27rem;
+}
+
+
+
+
+
+
+/********Training**********/
+
+
+
+.training
+{
+    position: fixed;
+    width: 100%;
+    height: 770px;
+    background: #000;
+}
+
+
+
+
+.training h1
+{
+    font-size: 1.7em;
+    padding: 10px;
+    color: #fff;
+}
+
+
+
+
+
+.training .traini
+{
+    position: fixed;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #fff;
+    margin-top: 4rem;
+}
+
+
+
+.training .traini .wrapper {
+        width: 220px;
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        margin-top: 7rem;
+        margin-left: 80px;
+      }
+     .training .traini .container {
+        height: 120px;
+        width: 55%;
+        background-color: #000;
+        position: relative;
+        display: -ms-grid;
+        display: grid;
+        place-items: center;
+        border-radius: 18px;
+        -webkit-box-shadow: 10px 10px 20px rgba(60, 60, 150, 0.25);
+                box-shadow: 10px 10px 20px rgba(60, 60, 150, 0.25);
+         animation: changeColor2 linear 3s infinite alternate;
+     }
+      
+
+
+     .training .circular-progress {
+        position: relative;
+        display: -ms-grid;
+        display: grid;
+        place-items: center;
+        height: 95px;
+        width: 95px;
+        border-radius: 50%;
+      }
+     .training .circular-progress:before {
+        content: "";
+        position: absolute;
+        height: 70%;
+        width: 70%;
+        background-color: #000;
+        border-radius: 50%;
+      }
+     .training .value-container {
+        position: relative;
+        font-size: 1.2em;
+        color: #fff;
+      }
+
+
+
+.training .traini .one
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #90cf47;
+    margin-top: 3rem;
+    margin-left: 125px;
+}
+
+
+
+.training .traini .two
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #f00;
+    margin-top: 5.5rem;
+    margin-left: 125px;
+}
+
+
+
+
+.training .traini .three
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #90cf47;
+    margin-top: 7.5rem;
+    margin-left: 125px;
+}
+
+
+
+
+
+.training .traini h3 
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #777;
+    margin-top: 14rem;
+    left: 4%;
+}
+
+
+
+
+.training .traini h4
+{
+    position: absolute;
+    font-size: 1.4em;
+    color: #222;
+    margin-top: 20rem;
+}
+
+
+
+
+.training .traini h5
+{
+    position: absolute;
+    font-size: 6em;
+    color: #222;
+    margin-top: 21.5rem;
+}
+
+
+
+
+
+
+}

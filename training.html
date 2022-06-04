@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>Calmness platform</title>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<link rel="stylesheet" href="calm.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="training">
+        <h1>Training 👟</h1>
+        <div class="traini">
+            <div class="wrapper">
+      <div class="container">
+        <div class="circular-progress">
+          <div class="value-container"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let progressBar = document.querySelector(".circular-progress");
+      let valueContainer = document.querySelector(".value-container");
+      // Progress Start Value
+      let progressValue = 0;
+      // Progress End Value
+      let progressEndValue = 80;
+      // Progress Duration
+      // Greater duration = lesser speed
+      let duration = 50;
+
+      let progress = setInterval(() => {
+        progressValue++;
+        valueContainer.textContent = `${progressValue}%`;
+        progressBar.style.background = `conic-gradient(
+    #fff ${progressValue * 3.6}deg,
+    rgba(255,255,255,0.4) ${progressValue * 3.6}deg
+  )`;
+        if (progressValue == progressEndValue) {
+          clearInterval(progress);
+        }
+      }, duration);
+      progres100    </script>
+      
+      <h2 class="one">Running ✓</h2>
+      <h2 class="two">Push ups ×</h2>
+      <h2 class="three">Walking ✓</h2>
+      <h3>Training action:</h3>
+      
+      <h4>Platform is not start working!</h4>
+      <h5>×</h5>
+        </div>
+    </section>
